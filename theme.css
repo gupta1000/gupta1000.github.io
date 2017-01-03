@@ -44,6 +44,7 @@ h1 {
 }
 
 .full-name {
+  display: block;
   margin: auto
 }
 
