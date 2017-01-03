@@ -10,7 +10,9 @@ body {
 
 h1 {
   font-weight: 300;
-  font-size: 4rem;
+  font-size: 3.2rem;
+  margin-top: 0px;
+  margin-bottom: 0px
 }
 
 .wrapper {
@@ -19,22 +21,34 @@ h1 {
 }
 
 .nav-bar {
-  background-color: #FF6666;
+  background-color: #FF6666
 }
 
 .nav-link {
   color: #FFFFFF;
-  font-size: 2rem;
-  text-decoration: none;
+  font-size: 1.6rem;
+  margin-right: 1vw;
+  text-decoration: none
+}
+
+.nav-link-r {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  float: right;
+  text-decoration: none
 }
 
 .masthead {
   background-color: #FF6666;
-  color: #FFFFFF;
+  color: #FFFFFF
+}
+
+.full-name {
+  margin: auto
 }
 
 .bold-fname {
-  font-weight: 600;
+  font-weight: 600
 }
 
 
