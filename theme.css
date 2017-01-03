@@ -33,6 +33,15 @@ nav {
   margin: 0 auto
 }
 
+.content {
+  position:absolute;
+  top: 50px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  overflow-y:scroll;
+}
+
 .nav-bar {
   background-color: #FF6666
 
