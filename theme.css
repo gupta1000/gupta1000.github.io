@@ -2,11 +2,39 @@
 
 body {
   font-family: "Catamaran"
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
 }
 
-#nav-bar {
-  background-color: #FF6666;
+h1 {
+  font-weight: 600;
+  font-size: 250%;
 }
+
+h2 {
+  font-weight: 300;
+  font-size: 250%;
+}
+
+.wrapper {
+  max-width: 62.5rem;
+  margin: 0 auto
+}
+
+.nav-bar {
+  background-color: #FF6666;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.masthead {
+  background-color: #FF6666;
+  color: #FFFFFF;
+}
+
+
 
 /*
 body {
