@@ -9,13 +9,8 @@ body {
 }
 
 h1 {
-  font-weight: 600;
-  font-size: 250%;
-}
-
-h2 {
   font-weight: 300;
-  font-size: 250%;
+  font-size: 4rem;
 }
 
 .wrapper {
@@ -25,13 +20,21 @@ h2 {
 
 .nav-bar {
   background-color: #FF6666;
+}
+
+.nav-link {
   color: #FFFFFF;
+  font-size: 2rem;
   text-decoration: none;
 }
 
 .masthead {
   background-color: #FF6666;
   color: #FFFFFF;
+}
+
+.bold-fname {
+  font-weight: 600;
 }
 
 
