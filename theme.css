@@ -66,10 +66,16 @@ nav {
   color: #FFFFFF
 }
 
-.propic-circle {
+.propic-svg {
   display: block;
   margin: auto;
   height: 20rem;
+  width: 25rem
+}
+
+.propic-circle {
+  display: block;
+  margin: auto;
 }
 
 .full-name {
