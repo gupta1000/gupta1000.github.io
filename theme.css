@@ -66,6 +66,12 @@ nav {
   color: #FFFFFF
 }
 
+.propic-circle {
+  display: block;
+  margin: auto;
+  height: 20rem;
+}
+
 .full-name {
   text-align: center
 }
