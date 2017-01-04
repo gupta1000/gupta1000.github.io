@@ -126,6 +126,10 @@ nav {
   padding: 1rem;
 }
 
+.projects-banner-label {
+  height: 5rem;
+  background-color: #5588FF;
+}
 
 #masthead-div {
   background: url(assets/masthead-back.svg);
@@ -134,8 +138,6 @@ nav {
 }
 
 #projects-banner {
-  height: 8rem;
-  background-color: #5588FF;
   background: url(assets/masthead-back.svg);
   background-size: cover;
   background-repeat: no-repeat;
