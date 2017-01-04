@@ -92,7 +92,7 @@ nav {
 }
 
 .small-label {
-  font-size: 1.2rem;
+  font-size: 1.12rem;
   margin-left: 8vw;
   color: #FFFFFF;
 }
@@ -197,6 +197,6 @@ nav {
 
 #photography {
   height: 5rem;
-  line-height: 2.5rem;
+  line-height: 2rem;
   background-color: rgba(0,0,0,.25);
 }
