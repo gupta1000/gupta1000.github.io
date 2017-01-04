@@ -99,7 +99,12 @@ nav {
   color: black;
 }
 
+.basic-info h2, p {
+  margin-left: 1hw
+}
+
 .basic-info p {
+  font-size: 1.6rem;
   color: #808080;
 }
 
