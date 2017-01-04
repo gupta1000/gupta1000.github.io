@@ -176,13 +176,13 @@ nav {
 }
 
 #interests-banner {
-  background: url(assets/masthead-back.svg);
+  background: url(assets/projects-back.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #portfolio-banner {
-  background: url(assets/masthead-back.svg);
+  background: url(assets/projects-back.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
