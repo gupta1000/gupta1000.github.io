@@ -230,6 +230,10 @@ nav {
 
 #proj3 {
   background-color: #2a8a5a;
+  background: url(assets/reversex.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   top: 20rem;
   width: 33%;
   height: 20rem
@@ -277,5 +281,4 @@ nav {
   padding: 1rem;
   margin-right: 3rem;
   position: relative;
-  bottom: -14rem;
 }
