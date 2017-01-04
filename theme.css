@@ -86,7 +86,10 @@ nav {
   font-weight: 600
 }
 
-
+#masthead-div {
+  background: url(assets/mashead-back.svg);
+  background-size: 100%;
+}
 
 /*
 body {
