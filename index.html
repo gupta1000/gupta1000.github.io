@@ -35,11 +35,12 @@
               </feMerge>
             </filter>
             <defs>
-              <pattern id="propic" x="0" y="0" patternUnits="userSpaceOnUse" height="1" width="1">
-                <image x="0" y="0" xlink:href="/assets/kush-longfellow-edited-small.jpg"></image>
-              </pattern>
+              <clipPath id="circle-mask">
+                <circle cx="0" cy="0" r=".8" fill="#FFFFFF" />
+              </clipPath>
             </defs>
-            <circle cx="0" cy=".125" r=".8" stroke="white" stroke-width=".04" fill="url(#propic)" style="filter:url(#shadow)" class="propic-circle"/>
+            <image cx="0" cy=".125" xlink:href="/assets/kush-longfellow-edited-small.jpg" clip-path="url(#circle-mask)"></image>
+            <circle cx="0" cy=".125" r=".8" stroke="white" stroke-width=".04" style="filter:url(#shadow)" class="propic-circle"/>
           </svg>
           <h1 class="full-name"><span class="bold-fname">Kushagra</span> Gupta</h1>
         </div>
