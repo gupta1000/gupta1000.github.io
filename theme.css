@@ -114,7 +114,7 @@ nav {
 }
 
 .basic-info {
-  color: black;
+  color: #000000;
 }
 
 .basic-info a {
@@ -135,19 +135,19 @@ nav {
 .projects-banner-label {
   height: 5rem;
   background-color: #5588FF;
-  margin-top: 2vh;
+  margin-top: 5vh;
 }
 
 .interests-banner-label {
   height: 5rem;
   background-color: #88CC55;
-  margin-top: 2vh;
+  margin-top: 5vh;
 }
 
 .portfolio-banner-label {
   height: 5rem;
   background-color: #8855DD;
-  margin-top: 2vh;
+  margin-top: 5vh;
 }
 
 #masthead-div {
