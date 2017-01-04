@@ -101,6 +101,11 @@ nav {
   color: #FFFFFF;
 }
 
+.panel-label {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
 .masthead {
   background-color: #FF5050;
   color: #FFFFFF
@@ -198,6 +203,7 @@ nav {
 
 #proj1 h2 {
   padding: 1rem;
+  margin-left: 1rem;
 }
 
 #proj2 {
@@ -209,6 +215,7 @@ nav {
 
 #proj2 h2 {
   padding: 1rem;
+  margin-right: 1rem;
   float: right;
 }
 
@@ -221,8 +228,9 @@ nav {
 
 #proj3 h2 {
   padding: 1rem;
+  margin-left: 1rem;
   position: relative;
-  bottom: -16rem;
+  bottom: -14rem;
 }
 
 #proj4 {
@@ -234,7 +242,8 @@ nav {
 
 #proj4 h2 {
   padding: 1rem;
+  margin-right: 1rem;
   position: relative;
-  bottom: -16rem;
+  bottom: -14rem;
   float: right;
 }
