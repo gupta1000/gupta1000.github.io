@@ -196,9 +196,8 @@ nav {
   height: 20rem
 }
 
-#proj1 h3 {
+#proj1 h2 {
   padding: 1rem;
-  vertical-align: top;
 }
 
 #proj2 {
@@ -208,9 +207,8 @@ nav {
   height: 20rem
 }
 
-#proj2 h3 {
+#proj2 h2 {
   padding: 1rem;
-  vertical-align: top;
   float: right;
 }
 
@@ -221,9 +219,10 @@ nav {
   height: 20rem
 }
 
-#proj2 h3 {
+#proj3 h2 {
   padding: 1rem;
-  vertical-align: bottom;;
+  position: relative;
+  bottom: -16rem;
 }
 
 #proj4 {
@@ -233,8 +232,9 @@ nav {
   height: 20rem
 }
 
-#proj4 h3 {
+#proj4 h2 {
   padding: 1rem;
-  vertical-align: bottom;;
+  position: relative;
+  bottom: -16rem;
   float: right;
 }
