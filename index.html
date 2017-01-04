@@ -34,7 +34,12 @@
                 <feMergeNode in="SourceGraphic"/>
               </feMerge>
             </filter>
-            <circle cx="0" cy=".125" r=".8" stroke="white" stroke-width=".04" style="filter:url(#shadow)" class="propic-circle"/>
+            <defs>
+              <pattern id="propic" x="0" y="0" patternUnits="userSpaceOnUse" height="1" width="1">
+                <image x="0" y="0" xlink:href="/assets/kush-longfellow-edited-small.jpg"></image>
+              </pattern>
+            </defs>
+            <circle cx="0" cy=".125" r=".8" stroke="white" stroke-width=".04" fill="url(#propic)" style="filter:url(#shadow)" class="propic-circle"/>
           </svg>
           <h1 class="full-name"><span class="bold-fname">Kushagra</span> Gupta</h1>
         </div>

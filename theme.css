@@ -94,45 +94,4 @@ nav {
   background: url(assets/masthead-back.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #FF6666;
 }
-
-/*
-body {
-  background: url("img/header-bg.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: "Raleway";
-}
-#box {
-  background-color: #FFF;
-  border-radius: 1em;
-  border: 2px solid #FFF;
-  position: absolute;
-  top: 25%;
-  width: 50%;
-  left: 25%;
-  text-align: center;
-  -webkit-box-shadow: 10px 9px 21px -7px rgba(0,0,0,0.58);
-  -moz-box-shadow: 10px 9px 21px -7px rgba(0,0,0,0.58);
-  box-shadow: 10px 9px 21px -7px rgba(0,0,0,0.58);
-}
-#profile_picture {
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  width: 20%;
-}
-#box h1 {
-  font-weight: 700;
-  font-size: 28px;
-}
-#box h2 {
-  font-size: 20px;
-  font-weight: 300;
-  margin-bottom: 50px;
-}
-*/
