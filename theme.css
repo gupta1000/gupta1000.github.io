@@ -16,6 +16,8 @@ h1 {
 }
 
 h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-weight: 600;
   font-size: 2.4rem;
 }
@@ -99,6 +101,11 @@ nav {
   color: black;
 }
 
+.basic-info a {
+  color: #FF6666;
+  text-decoration: none
+}
+
 .basic-info p {
   font-size: 1.2rem;
   color: #808080;
@@ -107,6 +114,7 @@ nav {
 .info-table td {
   padding: 1rem;
 }
+
 
 #masthead-div {
   background: url(assets/masthead-back.svg);
