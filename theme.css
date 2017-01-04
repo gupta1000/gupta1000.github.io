@@ -231,7 +231,7 @@ nav {
 #proj3 {
   background-color: #2a8a5a;
   top: 20rem;
-  width: 67%;
+  width: 33%;
   height: 20rem
 }
 
@@ -259,4 +259,23 @@ nav {
   position: relative;
   bottom: -14rem;
   float: right;
+}
+
+#proj5 {
+  background-color: #9c6c3c;
+  background: url(assets/code-sc.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  top: 20rem;
+  width: 34%;
+  height: 20rem
+}
+
+#proj5 h2 {
+  padding: 1rem;
+  margin-right: 3rem;
+  position: relative;
+  bottom: -14rem;
 }
