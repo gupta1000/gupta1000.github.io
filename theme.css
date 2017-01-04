@@ -123,11 +123,12 @@ nav {
 }
 
 .basic-info p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #808080;
 }
 
 .info-table td {
+  vertical-align: top;
   padding: 1rem;
 }
 
