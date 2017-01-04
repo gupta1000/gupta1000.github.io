@@ -194,13 +194,6 @@ nav {
   background-repeat: no-repeat;
 }
 
-#project-background {
-  background: url(assets/proj-background.svg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 #proj1 {
   background-color: #000000;
   background: url(assets/soft_robots.jpg);
@@ -214,7 +207,7 @@ nav {
 
 #proj1 h2 {
   padding: 1rem;
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 #proj2 {
@@ -230,7 +223,7 @@ nav {
 
 #proj2 h2 {
   padding: 1rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
   float: right;
 }
 
@@ -243,7 +236,7 @@ nav {
 
 #proj3 h2 {
   padding: 1rem;
-  margin-left: 1rem;
+  margin-left: 3rem;
   position: relative;
   bottom: -14rem;
 }
@@ -261,7 +254,7 @@ nav {
 
 #proj4 h2 {
   padding: 1rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
   position: relative;
   bottom: -14rem;
   float: right;
