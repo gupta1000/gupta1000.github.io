@@ -183,7 +183,7 @@ nav {
 }
 
 #interests-banner {
-  background: url(assets/mastheads-back.svg);
+  background: url(assets/masthead-back.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -267,11 +267,10 @@ nav {
 
 #proj5 {
   background-color: #9c6c3c;
-  background: url(assets/code-sc.jpg);
+  background: url(assets/chi-map.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  text-align: center;
   top: 20rem;
   width: 34%;
   height: 20rem
@@ -281,4 +280,5 @@ nav {
   padding: 1rem;
   margin-right: 3rem;
   position: relative;
+  color: black;
 }
