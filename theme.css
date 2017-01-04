@@ -170,7 +170,7 @@ nav {
 }
 
 #projects-banner {
-  background: url(assets/masthead-back.svg);
+  background: url(assets/projects-back.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -196,8 +196,10 @@ nav {
 }
 
 #photography {
-  padding: .4rem;
-  height: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  height: 4rem;
   line-height: 2rem;
   background-color: rgba(0,0,0,.25);
 }
