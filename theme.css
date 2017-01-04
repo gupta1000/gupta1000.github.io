@@ -148,12 +148,11 @@ nav {
 .banner-label {
   height: 5rem;
   background-color: #FF5050;
-  margin-top: 5vh;
 }
 
 .panel {
-  position: absolute;
-  margin: 0 auto
+  display: inline-block;
+  margin: 0 0
 }
 
 #masthead-div {
@@ -182,15 +181,13 @@ nav {
 
 #proj1 {
   background-color: #000000;
-  left: 0%;
   top: 0rem;
   width: 35%;
   height: 20rem
 }
 
-#proj1 {
+#proj2 {
   background-color: #808080;
-  left: 35%;
   top: 0rem;
   width: 65%;
   height: 20rem
