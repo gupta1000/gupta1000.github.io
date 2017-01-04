@@ -182,12 +182,13 @@ nav {
 }
 
 #photo {
-  height: 4rem;
+  height: 24rem;
   background: url(assets/pic1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #photography {
+  height: 4rem;
   background-color: rgba(0,0,0,.25);
 }
