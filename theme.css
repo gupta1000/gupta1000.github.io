@@ -99,17 +99,13 @@ nav {
   color: black;
 }
 
-.basic-info h2, p {
-  margin-left: 1hw
-}
-
 .basic-info p {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: #808080;
 }
 
-.info-table {
-  width=
+.info-table td {
+  padding: 1rem;
 }
 
 #masthead-div {
