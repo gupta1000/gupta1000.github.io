@@ -10,7 +10,7 @@ body {
 
 h1 {
   font-weight: 600;
-  font-size: 3.2rem;
+  font-size: 3rem;
   margin-top: 0px;
   margin-bottom: 0px
 }
@@ -191,6 +191,13 @@ nav {
 #portfolio-banner {
   background: url(assets/projects-back.svg);
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#project-background {
+  background: url(assets/proj-background.svg);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
