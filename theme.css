@@ -26,7 +26,7 @@ h3 {
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 p {
@@ -87,6 +87,12 @@ nav {
 }
 
 .section-label {
+  margin-left: 8vw;
+  color: #FFFFFF;
+}
+
+.small-label {
+  font-size: 1.2rem;
   margin-left: 8vw;
   color: #FFFFFF;
 }
