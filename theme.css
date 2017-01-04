@@ -177,14 +177,15 @@ nav {
 }
 
 #projects-banner {
-  background: url(assets/projects-back.svg);
+  background: url(assets/masthead-back.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #interests-banner {
-  background: url(assets/projects-back.svg);
+  background: url(assets/mastheads-back.svg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
