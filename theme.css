@@ -136,6 +136,16 @@ nav {
   background-color: #5588FF;
 }
 
+.interests-banner-label {
+  height: 5rem;
+  background-color: #88CC55;
+}
+
+.portfolio-banner-label {
+  height: 5rem;
+  background-color: #8855DD;
+}
+
 #masthead-div {
   background: url(assets/masthead-back.svg);
   background-size: cover;
@@ -143,6 +153,18 @@ nav {
 }
 
 #projects-banner {
+  background: url(assets/masthead-back.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#interests-banner {
+  background: url(assets/masthead-back.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#portfolio-banner {
   background: url(assets/masthead-back.svg);
   background-size: cover;
   background-repeat: no-repeat;
