@@ -33,6 +33,10 @@ nav {
   margin: 0 auto
 }
 
+.edge-wrapper {
+  margin: 0 auto
+}
+
 .content {
   position:absolute;
   top: 50px;
