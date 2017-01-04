@@ -98,7 +98,6 @@ nav {
 
 .small-label {
   font-size: 1.12rem;
-  margin-left: 8vw;
   color: #FFFFFF;
 }
 
@@ -152,7 +151,7 @@ nav {
 
 .info-table td {
   vertical-align: top;
-  padding: 3.2rem;
+  padding: 1.6rem;
 }
 
 .banner-label {
@@ -162,6 +161,7 @@ nav {
 
 .panel {
   display: inline-block;
+  vertical-align: top;
   margin: 0 0
 }
 
@@ -192,27 +192,49 @@ nav {
 #proj1 {
   background-color: #000000;
   top: 0rem;
-  width: 35%;
+  width: 33%;
   height: 20rem
+}
+
+#proj1 h3 {
+  padding: 1rem;
+  vertical-align: top;
 }
 
 #proj2 {
   background-color: #808080;
   top: 0rem;
-  width: 65%;
+  width: 67%;
   height: 20rem
 }
 
-#proj1 {
+#proj2 h3 {
+  padding: 1rem;
+  vertical-align: top;
+  float: right;
+}
+
+#proj3 {
   background-color: #2a8a5a;
   top: 20rem;
-  width: 65%;
+  width: 67%;
   height: 20rem
 }
 
-#proj2 {
+#proj2 h3 {
+  padding: 1rem;
+  vertical-align: bottom;;
+}
+
+#proj4 {
   background-color: #9c6c3c;
   top: 20rem;
-  width: 35%;
+  width: 33%;
   height: 20rem
+}
+
+#proj4 h3 {
+  padding: 1rem;
+  vertical-align: bottom;;
+  float: right;
 }
