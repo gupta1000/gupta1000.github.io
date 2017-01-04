@@ -58,7 +58,7 @@ nav {
 
 .panel-wrapper {
   max-width: 72rem;
-  margin: 4rem 2rem
+  margin: 2rem 2rem
 }
 
 .content {
@@ -145,9 +145,14 @@ nav {
   color: #808080;
 }
 
+.info-table {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
 .info-table td {
   vertical-align: top;
-  padding: 1rem;
+  padding: 3.2rem;
 }
 
 .banner-label {
@@ -195,5 +200,19 @@ nav {
   background-color: #808080;
   top: 0rem;
   width: 65%;
+  height: 20rem
+}
+
+#proj1 {
+  background-color: #2a8a5a;
+  top: 20rem;
+  width: 65%;
+  height: 20rem
+}
+
+#proj2 {
+  background-color: #9c6c3c;
+  top: 20rem;
+  width: 35%;
   height: 20rem
 }
