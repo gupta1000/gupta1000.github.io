@@ -151,6 +151,11 @@ nav {
   margin-top: 5vh;
 }
 
+.panel {
+  position: absolute;
+  margin: 0 auto
+}
+
 #masthead-div {
   background: url(assets/masthead-back.svg);
   background-size: cover;
@@ -175,19 +180,18 @@ nav {
   background-repeat: no-repeat;
 }
 
-#photo {
-  height: 32rem;
-  background: url(assets/pic1.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+#proj1 {
+  background-color: #000000;
+  left: 0%;
+  top: 0rem;
+  width: 35%;
+  height: 20rem
 }
 
-#photography {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  height: 4rem;
-  line-height: 2rem;
-  background-color: rgba(0,0,0,.25);
+#proj1 {
+  background-color: #808080;
+  left: 35%;
+  top: 0rem;
+  width: 65%;
+  height: 20rem
 }
