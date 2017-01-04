@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="10in"
-   height="0.75in"
+   width="900"
+   height="67.5"
    viewBox="0 0 900.00002 0"
    id="svg2"
    version="1.1"
@@ -38,12 +38,12 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.90509668"
-     inkscape:cx="607.16863"
+     inkscape:cx="427.6298"
      inkscape:cy="-134.38321"
-     inkscape:document-units="in"
+     inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     units="in"
+     units="px"
      inkscape:window-width="1680"
      inkscape:window-height="1001"
      inkscape:window-x="0"
@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,16 +71,16 @@
        inkscape:connector-curvature="0"
        id="path6472"
        d="m 316.0684,1084.8624 -124.0584,67.5 187.5466,0 141.5625,-67.5 z"
-       style="fill:#000000;fill-opacity:0.05747126;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#000000;fill-opacity:0.05747124;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        id="path6474"
        d="m 720.1035,1084.8624 -44.8047,67.5 224.7012,0 0,-67.5 -179.8965,0 z"
-       style="fill:#000000;fill-opacity:0.05747126;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0.05747124;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="path6476"
        d="m 422.1699,1084.8624 30.8164,67.5 447.0137,0 0,-0.094 -101.8789,-67.4063 -375.9512,0 z"
-       style="fill:#000000;fill-opacity:0.05747126;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0.05747124;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
