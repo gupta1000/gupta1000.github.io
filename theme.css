@@ -56,6 +56,11 @@ nav {
   margin: 0 auto
 }
 
+.panel-wrapper {
+  max-width: 72rem;
+  margin: 2rem 2rem
+}
+
 .content {
   position:absolute;
   top: 50px;
