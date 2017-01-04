@@ -135,16 +135,19 @@ nav {
 .projects-banner-label {
   height: 5rem;
   background-color: #5588FF;
+  margin-top: 2vh;
 }
 
 .interests-banner-label {
   height: 5rem;
   background-color: #88CC55;
+  margin-top: 2vh;
 }
 
 .portfolio-banner-label {
   height: 5rem;
   background-color: #8855DD;
+  margin-top: 2vh;
 }
 
 #masthead-div {
