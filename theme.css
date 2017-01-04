@@ -197,6 +197,9 @@ nav {
 #proj1 {
   background-color: #000000;
   background: url(assets/soft_robots.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   top: 0rem;
   width: 33%;
   height: 20rem
@@ -210,6 +213,9 @@ nav {
 #proj2 {
   background-color: #808080;
   background: url(assets/cube_front.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   top: 0rem;
   width: 67%;
   height: 20rem
@@ -237,6 +243,10 @@ nav {
 
 #proj4 {
   background-color: #9c6c3c;
+  background: url(assets/code-sc.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   top: 20rem;
   width: 33%;
   height: 20rem
