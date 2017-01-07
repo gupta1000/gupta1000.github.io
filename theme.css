@@ -106,9 +106,23 @@ nav {
   font-family: 'Roboto Slab', serif;
   font-size: 2.4rem;
   color: #FFFFFF;
-  z-index: 2;
+  z-index: 3;
+  transition: opacity .5s ease-in-out;
+  opacity: 1;
   position: relative;
   margin: 0 0
+}
+
+.panel-info {
+  position: relative;
+  display: block;
+  font-size: 1.125rem;
+  line-height: 1.6rem;
+  color: #FFFFFF;
+  padding: 1rem;
+  z-index: 2;
+  transition: opacity .5s ease-in-out;
+  opacity: 0;
 }
 
 .masthead {
@@ -164,6 +178,7 @@ nav {
   position: relative;
   display: inline-block;
   width: 30rem;
+  max-width: 64rem;
   height: auto;
   vertical-align: top;
   padding: 1rem
@@ -178,7 +193,30 @@ nav {
   position: relative;
   display: inline-block;
   vertical-align: top;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
   margin: 1rem
+}
+
+.panel-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  margin: 0 0
+}
+
+.panel:hover .panel-info {
+  transition: opacity .5s ease-in-out;
+  opacity: 1
+}
+
+.panel:hover .panel-label {
+  transition: opacity .5s ease-in-out;
+  opacity: 0
 }
 
 .filter {
@@ -238,7 +276,7 @@ nav {
 
 #proj3 {
   background-color: #2a8a5a;
-  background: url(assets/reversex.jpg);
+  background: url(assets/chi-map.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -248,7 +286,7 @@ nav {
 
 #proj4 {
   background-color: #9c6c3c;
-  background: url(assets/code-sc.jpg);
+  background: url(assets/reversex.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -268,7 +306,7 @@ nav {
 
 #proj6 {
   background-color: #9c6c3c;
-  background: url(assets/chi-map.jpg);
+  background: url(assets/code-sc.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
