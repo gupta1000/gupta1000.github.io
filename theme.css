@@ -330,3 +330,9 @@ nav {
   width: 22rem;
   height: 22rem
 }
+
+@media (max-width: 45rem) {
+  .collapse {
+    display: none !important;
+  }
+}
