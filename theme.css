@@ -254,6 +254,7 @@ nav {
   height: 15rem;
   width: 300rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .photobanner-banner {
@@ -308,11 +309,19 @@ nav {
 }
 
 .first {
-	-webkit-animation: bannermove 30s linear infinite;
-	   -moz-animation: bannermove 30s linear infinite;
-	    -ms-animation: bannermove 30s linear infinite;
-	     -o-animation: bannermove 30s linear infinite;
-	        animation: bannermove 30s linear infinite;
+	-webkit-animation: bannermove 45s linear infinite;
+	   -moz-animation: bannermove 45s linear infinite;
+	    -ms-animation: bannermove 45s linear infinite;
+	     -o-animation: bannermove 45s linear infinite;
+	        animation: bannermove 45s linear infinite;
+}
+
+.first-opp {
+  -webkit-animation: bannermove-opp 45s linear infinite;
+	   -moz-animation: bannermove-opp 45s linear infinite;
+	    -ms-animation: bannermove-opp 45s linear infinite;
+	     -o-animation: bannermove-opp 45s linear infinite;
+	        animation: bannermove-opp 45s linear infinite;
 }
 
 #masthead-div {
@@ -448,5 +457,50 @@ nav {
  }
  100% {
    margin-left: -123rem;
+ }
+}
+
+@keyframes "bannermove-opp" {
+ 0% {
+    margin-left: -123rem;
+ }
+ 100% {
+    margin-left: 0rem;
+ }
+}
+
+@-moz-keyframes bannermove-opp {
+ 0% {
+   margin-left: -123rem;
+ }
+ 100% {
+   margin-left: 0rem;
+ }
+}
+
+@-webkit-keyframes "bannermove-opp" {
+ 0% {
+   margin-left: -123rem;
+ }
+ 100% {
+   margin-left: 0rem;
+ }
+}
+
+@-ms-keyframes "bannermove-opp" {
+ 0% {
+   margin-left: -123rem;
+ }
+ 100% {
+   margin-left: 0rem;
+ }
+}
+
+@-o-keyframes "bannermove-opp" {
+ 0% {
+   margin-left: -123rem;
+ }
+ 100% {
+   margin-left: 0rem;
  }
 }
