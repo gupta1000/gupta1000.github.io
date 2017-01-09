@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,600');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
   font-family: "Catamaran";
@@ -140,6 +141,13 @@ nav {
   color: #FFFFFF
 }
 
+.contact {
+  background-color: #FF5050;
+  color: #FFFFFF;
+  height: 8rem;
+  text-align: center;
+}
+
 .masthead h1 {
   font-weight: 300;
 }
@@ -267,7 +275,7 @@ nav {
 }
 
 .photobanner-label {
-  margin-left: 6rem;
+  margin-left: 8vw;
   margin-right: 1rem;
   font-size: 2.8rem;
   float: left;
@@ -306,30 +314,42 @@ nav {
 	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
 	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
 	box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+
 }
 
-.med {
+.first {
 	-webkit-animation: bannermove 45s linear infinite;
 	   -moz-animation: bannermove 45s linear infinite;
 	    -ms-animation: bannermove 45s linear infinite;
 	     -o-animation: bannermove 45s linear infinite;
 	        animation: bannermove 45s linear infinite;
+  animation-play-state: paused;
 }
 
-.slow {
-  -webkit-animation: bannermove 55s linear infinite;
-	   -moz-animation: bannermove 55s linear infinite;
-	    -ms-animation: bannermove 55s linear infinite;
-	     -o-animation: bannermove 55s linear infinite;
-	        animation: bannermove 55s linear infinite;
+.photobanner:hover .first {
+  animation-play-state: running;
 }
 
-.fast {
-  -webkit-animation: bannermove 35s linear infinite;
-	   -moz-animation: bannermove 35s linear infinite;
-	    -ms-animation: bannermove 35s linear infinite;
-	     -o-animation: bannermove 35s linear infinite;
-	        animation: bannermove 35s linear infinite;
+.social-button {
+    font-size: 4rem !important;
+    font-weight: 400;
+    color: #fff;
+    width: 6rem !important;
+    height: 6rem !important;
+    border-radius: 3rem;
+    display: -moz-inline-flex;
+    display: inline-flex;
+    -moz-justify-content: center;
+    justify-content: center;
+    align-content: center;
+    -moz-align-items: center;
+    align-items: center;
+    margin: 1rem;
+    transition: color .15s linear
+}
+
+.social-button:hover {
+  color: gray;
 }
 
 #masthead-div {
