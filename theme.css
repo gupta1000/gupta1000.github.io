@@ -147,6 +147,7 @@ nav {
   color: #FFFFFF;
   height: 8rem;
   text-align: center;
+  overflow: hidden;
 }
 
 .masthead h1 {
