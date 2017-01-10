@@ -437,9 +437,32 @@ nav {
   height: 22rem
 }
 
+#propic1 {
+  animation-name: fade-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  animation-direction: alternate;
+}
+
 @media (max-width: 45rem) {
   .collapse {
     display: none !important;
+  }
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity:1;
+  }
+  45% {
+    opacity:1;
+  }
+  55% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
   }
 }
 
