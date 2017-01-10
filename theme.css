@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,600');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
   font-family: "Catamaran";
@@ -336,20 +337,20 @@ nav {
     color: #fff;
     width: 6rem !important;
     height: 6rem !important;
+    text-decoration: none !important;
     border-radius: 3rem;
-    display: -moz-inline-flex;
-    display: inline-flex;
-    -moz-justify-content: center;
-    justify-content: center;
-    align-content: center;
-    -moz-align-items: center;
-    align-items: center;
-    margin: 1rem;
+    line-height: 6rem;
+    vertical-align: middle;
+    margin: .6rem;
     transition: color .15s linear
 }
 
 .social-button:hover {
   color: gray;
+}
+
+.contact a {
+  text-decoration: none !important;
 }
 
 #masthead-div {
