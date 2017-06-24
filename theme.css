@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,600');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
@@ -259,6 +260,24 @@ nav {
   margin: 0 0
 }
 
+.design {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 1rem;
+  width: 36rem;
+  height: 22rem;
+}
+
+.design-small {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 1rem;
+  width: 22rem;
+  height: 22rem;
+}
+
 .photobanner {
   position: relative;
   height: 15rem;
@@ -360,6 +379,12 @@ nav {
   background-repeat: no-repeat;
 }
 
+#masthead-div-portfolio {
+  background: url(assets/masthead-back.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #projects-banner {
   background: url(assets/masthead-back.svg);
   background-size: cover;
@@ -439,6 +464,100 @@ nav {
   height: 22rem
 }
 
+#des1 {
+  background-color: #9c6c3c;
+  background: url(assets/pulse-2018.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 1s ease-in-out;
+}
+
+#des1:hover {
+  background-color: #9c6c3c;
+  background: url(assets/pulse-one.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#des2 {
+  background-color: #9c6c3c;
+  background: url(assets/down-logo.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 1s;
+}
+
+#des2:hover {
+  background-size: 115%;
+}
+
+#des3 {
+  width: 100%;
+  height: 100%;
+  background-color: #9c6c3c;
+  background: url(assets/2016holishirt.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#des4 {
+  background-color: #9c6c3c;
+  background: url(assets/isa-peacock-logo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 1s ease-in;
+}
+
+#des4:hover {
+  background-color: #9c6c3c;
+  background: url(assets/isa-peacock-logo-blue.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#des5 {
+  background-color: #9c6c3c;
+  background: url(assets/mao-logo.jpg);
+  background-size: 115%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 1s;
+}
+
+#des5:hover {
+  background-size: 100%;
+}
+
+#des6 {
+  background-color: #9c6c3c;
+  background: url(assets/desillini-wood.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 1s;
+}
+
+#des6:hover {
+  background-size: 115%;
+}
+
+#holi-rainbow {
+  align-content: center;
+  background-color: #9c1c3c;
+  background-position: center;
+  width: 22rem;
+  height: 22rem;
+  animation: rainbow 30s;
+  -webkit-animation: rainbow 30s;
+  animation-iteration-count: infinite;
+}
+
 #propic1 {
   animation-name: fade-in-out;
   animation-timing-function: ease-in-out;
@@ -511,4 +630,20 @@ nav {
  100% {
    margin-left: -123rem;
  }
+}
+
+@keyframes rainbow {
+  0%  {background: #FFAAAA;}
+  25%  {background: #FFEEAA;}
+  50%  {background: #AACCFF;}
+  75%  {background: #AFE9AF;}
+  100% {background: #FFAAAA;}
+}
+
+@-webkit-keyframes rainbow {
+  0%  {background: #FFAAAA;}
+  25%  {background: #FFEEAA;}
+  50%  {background: #AACCFF;}
+  75%  {background: #AFE9AF;}
+  100% {background: #FFAAAA;}
 }
